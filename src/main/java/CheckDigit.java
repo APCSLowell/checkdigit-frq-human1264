@@ -7,7 +7,10 @@ public class CheckDigit
    */  
    public static int getCheck(int num) 
    {  
-     /* to be implemented in part (a) */
+     private int sum = 0;
+     private int b = num;
+     ArrayList <Integer> a = new ArrayList <Integer>();
+     
    }
  
   /** Returns true if numWithCheckDigit is valid, or false    
