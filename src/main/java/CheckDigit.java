@@ -1,4 +1,4 @@
- class CheckDigit 
+class CheckDigit 
 {   
 
    public static int getCheck(int num) 
