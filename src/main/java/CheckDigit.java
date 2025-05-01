@@ -7,7 +7,7 @@ class CheckDigit
      int b = num;
      ArrayList <Integer> a = new ArrayList <Integer>();
      for(int i = 0; i < getNumberOfDigits(num); i++){
-       a.add(b%10,0);
+       a.add(0,b%10);
        b=b/10;
      }
      for(int i = 0; i < a.size(); i++){
