@@ -1,6 +1,7 @@
+
 class CheckDigit 
 {   
-
+   import java.util.ArrayList;
    public static int getCheck(int num) 
    {  
      int sum = 0;
