@@ -1,4 +1,4 @@
-
+import java.util.*;
 class CheckDigit 
 {   
    public static int getCheck(int num) 
