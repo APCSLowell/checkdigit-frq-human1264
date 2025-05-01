@@ -3,8 +3,8 @@ public class CheckDigit
 
    public static int getCheck(int num) 
    {  
-     private int sum = 0;
-     private int b = num;
+      int sum = 0;
+      int b = num;
      ArrayList <Integer> a = new ArrayList <Integer>();
      for(inti = 0; i < getNumberOfDigits(num); i++){
        a.add(b%10,0);
