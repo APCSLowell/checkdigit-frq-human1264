@@ -1,10 +1,10 @@
-public class CheckDigit 
+ class CheckDigit 
 {   
 
    public static int getCheck(int num) 
    {  
-      int sum = 0;
-      int b = num;
+     int sum = 0;
+     int b = num;
      ArrayList <Integer> a = new ArrayList <Integer>();
      for(int i = 0; i < getNumberOfDigits(num); i++){
        a.add(b%10,0);
